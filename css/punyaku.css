@@ -1,0 +1,65 @@
+/* Style untuk container */
+.kontener {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+.kontener .gambar {
+    display: flex;
+    margin-top: 50px;
+}
+  /* Style untuk gambar produk */
+  .product-image {
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    display: flex;
+  }
+
+  /* Style untuk nama produk */
+  .product-name {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  /* Style untuk deskripsi produk */
+  .product-description {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-top: 20px;
+    text-align: justify;
+  }
+
+  /* Style untuk harga produk */
+  .product-price {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  /* Style untuk tombol beli */
+  .buy-button {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #008CBA;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+.kontener .formpemesanan {
+    margin-top: 50px;
+}
+
+.kontener .terimakasih {
+    margin-top: 50px;
+}
